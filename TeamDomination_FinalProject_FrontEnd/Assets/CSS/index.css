@@ -66,6 +66,19 @@ nav {
     font-size: 18px; /* Ensure same font size */
     padding: 0 20px; /* Add padding to the left and right */
     padding-right: 50px;
+
+
+    color: white; /* Ensure same color */
+    text-decoration: none; /* Ensure same text decoration */
+    font-size: 18px; /* Ensure same font size */
+    padding: 10px 20px; /* Add padding for button effect */
+    border: 2px solid green; /* Add border with blue color */
+    border-radius: 10px; /* Rounded corners */
+    background-color: green; /* Blue background */
+}
+.nav-links-right a:hover {
+    background-color: white; /* Change background on hover */
+    color: #0056b3; /* Change text color on hover */
 }
 .nav-links-left {
    
