@@ -7,11 +7,10 @@ body {
     height: 100vh;
     background-attachment: fixed;
 }
-
 header {
     /* background-color: #0056b3; */
      color: white; 
-    padding: 10px 20px;
+    padding: 10px 20px; 
     text-align: left;
     font-size: 24px;
     font-weight: bold;
@@ -26,6 +25,7 @@ nav {
 .logo {
     font-size: 24px;
     font-weight: bold;
+    margin-top: 50px; /* Increase the margin-top value */
 }
 
 .nav-links {
@@ -43,18 +43,31 @@ nav {
     text-decoration: none;
     font-size: 18px;
 }
-
-/*footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}   */
-
+.white-block {
+    background-color: white;
+    height: 4px;
+    width: 70%;
+    margin: 0 auto; /* Centers the block horizontally */
+}
 .content {
     padding: 20px;
     text-align: center;
+}
+.nav-links-right {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-left: auto; /* Pushes this group to the right */
+}
+.nav-links-left a,
+.nav-links-right a {
+    color: white; /* Ensure same color */
+    text-decoration: none; /* Ensure same text decoration */
+    font-size: 18px; /* Ensure same font size */
+    padding: 0 20px; /* Add padding to the left and right */
+    padding-right: 50px;
+}
+.nav-links-left {
+   
+    padding: 0 20px; /* Add padding to the left and right */
 }
