@@ -84,3 +84,50 @@ nav {
    
     padding: 0 20px; /* Add padding to the left and right */
 }
+.stats-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    position: relative;
+}
+.stat-box {
+    background-color: white;
+    border: 2px solid #0056b3;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.stat-box h2 {
+    font-size: 48px;
+    margin: 0;
+    color: #333;
+}
+
+.stat-box p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.corner-lines {
+    position: absolute;
+    border: 2px solid #0056b3;
+    height: 50px;
+    width: 50px;
+}
+
+.corner-lines.top-left {
+    top: -25px;
+    left: -25px;
+    border-bottom: none;
+    border-right: none;
+}
+
+.corner-lines.bottom-right {
+    bottom: -25px;
+    right: -25px;
+    border-top: none;
+    border-left: none;
+}
