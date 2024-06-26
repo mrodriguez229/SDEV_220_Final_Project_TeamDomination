@@ -92,10 +92,11 @@ nav {
 }
 .stat-box {
     background-color: white;
-    border: 2px solid #0056b3;
+    border: 2px solid #0056b3; /* Change to #28a745 for green border */
     border-radius: 10px;
     padding: 20px;
-    width: 30%;
+    width: 25%; /* Adjust width to be narrower */
+    height: 200px; /* Set a fixed height */
     text-align: center;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
@@ -113,7 +114,7 @@ nav {
 
 .corner-lines {
     position: absolute;
-    border: 2px solid #0056b3;
+    border: 2px solid green;
     height: 50px;
     width: 50px;
 }
