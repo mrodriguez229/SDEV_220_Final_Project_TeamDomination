@@ -87,7 +87,7 @@ nav {
 .stats-section {
     display: flex;
     justify-content: space-around;
-    padding: 40px 0;
+    padding: 8% 0;
     position: relative;
 }
 .stat-box {
