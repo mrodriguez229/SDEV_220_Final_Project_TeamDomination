@@ -1,6 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(to bottom, #000000, #333333, #666666);
+    /* background: linear-gradient(to bottom, #f0f0f0, #cccccc); /* Background gradient  This is the background gradient for the 
+    sign up page, play around with it & apply to the homepage, also try flipping it, would make it look better*/
     color: #0056b3;
     margin: 0;
     padding: 0;
