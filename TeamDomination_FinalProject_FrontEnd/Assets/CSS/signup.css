@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(to bottom, #f0f0f0, #cccccc);
+   /*  background: url('Assets/Images/electric-vehicle-selfdriving-future-car-260nw-2185590899.jpg'); */ /* Maybe try fixing this later, it's a good image */
     color: #333;
     margin: 0;
     padding: 0;
@@ -18,8 +19,8 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 400px;
-    margin-left: 20px;
-
+    margin-left: 60%;
+    height: 650px; /* Add this line to set a fixed height */
 }
 
 .signup-container h2 {
@@ -60,8 +61,29 @@ body {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-top: 50px;
 }
 
 .btn:hover {
     background-color: #003f7f;
+}
+.vertical-line {
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 50%;
+    width: 2px; /* Adjust the width as needed */
+    background-color: #333; /* Adjust the color as needed */
+    transform: translateX(-50%);
+    z-index: 0; /* Ensure the line is behind the form */
+}
+.bold-text {
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black; /* Change font color to black */
+    font-size: 36px; /* Increase font size */
+    font-weight: bold;
+    line-height: 3.5; /* Adjust line height for spacing */
 }
