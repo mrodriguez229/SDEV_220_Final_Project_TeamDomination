@@ -38,6 +38,7 @@ class CallSchedule:
         self.time = time
         self.vehicle_id = vehicle_id
 
+
     def assign_vehicle(self, vehicle_id):
         self.vehicle_id = vehicle_id
 
